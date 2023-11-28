@@ -527,6 +527,7 @@ body {
         background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("../img/mobile-bg.jpg");
         background-position: top left;
         background-size: cover;
+        background-attachment: fixed;
     }
     .webinar-type {
         margin-left: auto;
