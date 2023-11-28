@@ -443,7 +443,8 @@ body {
     }
 
     .webinar-mentor {
-        display: none;
+        display: flex;
+        justify-content: center;
     }
 
     .webinar-main {
@@ -529,6 +530,10 @@ body {
 @media only screen and (max-width: 480px) {
     .webinar-type {
         margin-left: 10px;
+    }
+
+    .webinar-mentor__line {
+        display: none;
     }
 }
 
