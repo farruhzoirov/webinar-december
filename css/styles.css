@@ -364,10 +364,10 @@ body {
 .form-button {
     height: 3rem;
     border-radius: 0.75rem;
-    background: linear-gradient(180deg, #EF0909 0%, #AE0C0C 100%);
-    box-shadow: 0 0.3rem 0 0 rgba(255, 0, 0, 0.25);
+    background:var(--gold-color);
+    box-shadow: 0 0.3rem 0 0 rgba(255, 242, 209,0.9);
     font-size: 1.125rem;
-    color: #FFFFFF;
+    color: #000000;
     font-weight: 500;
     transition: all 0.1s ease;
 }
@@ -544,5 +544,22 @@ body {
         font-size: 1.6rem;
     }
 
+}
+
+@media only screen and (max-width: 380px) {
+    .webinar-date {
+        width: 100%;
+        max-width: 18.3125rem;
+        min-height: 7.5rem;
+        padding: 1rem 0;
+        margin-right: 3.63rem;
+        background-image: url("../img/webinar-time-bg.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .webinar-date-value span {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
 }
 
