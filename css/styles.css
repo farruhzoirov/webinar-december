@@ -514,13 +514,24 @@ body {
     }
 }
 
-@media only screen and (max-width: 1070px) {
+@media only screen and (max-width: 1070px ) {
     body {
         background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("../img/mobile-bg.jpg");
         background-position: top left;
         background-size: cover;
     }
+    .webinar-type {
+        margin-left: auto;
+    }
+
 }
+
+@media only screen and (max-width: 480px) {
+    .webinar-type {
+        margin-left: 10px;
+    }
+}
+
 
 
 @media only screen and (max-width: 440px) {
@@ -529,3 +540,4 @@ body {
     }
 
 }
+
