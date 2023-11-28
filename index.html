@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webinar - Azizbek Khabibullayev</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="webinar">
+    <div class="webinar-header">
+        <div class="container">
+            <div style="display: flex;align-items: center">
+                <div class="webinar-date">
+                    <div class="webinar-date-title">Boshlanish vaqti</div>
+                    <div class="webinar-date-value">
+                        <span>7-8-dekabr</span>
+                        <span class="webinar-date-time">20:30</span>
+                    </div>
+
+                </div>
+                <div class="webinar-type">
+                    <h2>Formati</h2>
+                    <strong>ONLAYN</strong>
+                </div>
+            </div>
+
+            <div class="webinar-mentor">
+                <span class="webinar-mentor__line"></span>
+                <h2>SPEAKER <span>Azizbek Khabibullaev</span></h2>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="webinar-main">
+        <div class="container">
+            <div class="webinar-main-content">
+                <h1 class="webinar-main-heading">Dasturlashda 0 dan 1000$</h1>
+                <h1 class="webinar-main-heading">daromadgacha</h1>
+
+                <div class="webinar-main-info">
+                    <h2 class="webinar-main-title">Bepul vebinar davomida bilib olasiz:</h2>
+
+                    <ul class="webinar-main-ul">
+                        <li class="webinar-main-li">
+                            <div class="webinar-main-disc">
+                                <img src="img/check-icon.svg" alt="check icon">
+                            </div>
+
+                            <p class="webinar-main-text">Qanday qilib dasturlashni noldan boshlab daromadgacha chiqish qadamlari</p>
+                        </li>
+                        <li class="webinar-main-li">
+                            <div class="webinar-main-disc">
+                                <img src="img/check-icon.svg" alt="check icon">
+                            </div>
+
+                            <p class="webinar-main-text">Yaxshi ustoz topish va dasturlashni o'rganib buyurtmalar olib ishlash ketma ketliklari</p>
+                        </li>
+                        <li class="webinar-main-li">
+                            <div class="webinar-main-disc">
+                                <img src="img/check-icon.svg" alt="check icon">
+                            </div>
+
+                            <p class="webinar-main-text">Dasturchi sifatida cheksiz ish topish qadamlari</p>
+                        </li>
+                    </ul>
+
+                    <p class="webinar-main-hint">Ro'yxatdan o'tganingiz uchun <strong>BEPUL</strong> qo'llanmaga ega bo'lasiz</p>
+
+                    <button class="webinar-main-button">RO'YXATDAN O'TISH</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="webinar-main-mentor">
+        <div class="container">
+            <img src="img/mentor-bg.png" srcset="img/mentor-bg.png 1x , img/mentor-bg@2x.png 2x" loading="lazy">
+        </div>
+    </div>
+</div>
+
+<div class="modal-backdrop" data-modal-close>
+    <form class="modal-content form">
+        <h2 class="form-heading">Ro'yxatdan o'tish</h2>
+        <p class="form-text">Pastdagi formani to'ldirishingiz bilan yopiq kanalga qo'shilasiz va BEPUL qo'llanma ham sizga ochiladi!</p>
+        <label class="form-label">
+            <span>Ism (majburiy)</span>
+            <input id="name" type="text" placeholder="Ismingizni kiriting" name="name" required>
+        </label>
+
+        <label class="form-label">
+            <span>Telefon raqami (majburiy)</span>
+            <input id="phone" type="tel" value="+998" name="phone">
+        </label>
+
+        <button class="form-button" type="submit">
+            Ro'yxatdan o'tish
+        </button>
+
+        <img data-modal-close class="form-close" src="img/x.svg" alt="close icon">
+    </form>
+</div>
+
+<!--<script type="module">-->
+<!--    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";-->
+<!--    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-analytics.js";-->
+
+<!--    const firebaseConfig = {-->
+<!--        apiKey: "AIzaSyBGtejrLNxacNZAXgcCHD4so0m3K3nmEzI",-->
+<!--        authDomain: "webinar-backend-750b6.firebaseapp.com",-->
+<!--        databaseURL: "https://webinar-backend-750b6-default-rtdb.firebaseio.com",-->
+<!--        projectId: "webinar-backend-750b6",-->
+<!--        storageBucket: "webinar-backend-750b6.appspot.com",-->
+<!--        messagingSenderId: "389007731082",-->
+<!--        appId: "1:389007731082:web:22dcc91f1f24aba81b0073",-->
+<!--        measurementId: "G-RHG53DPJ2C"-->
+<!--    };-->
+
+<!--    // Initialize Firebase-->
+<!--    const app = initializeApp(firebaseConfig);-->
+<!--    const analytics = getAnalytics(app);-->
+<!--</script>-->
+<!--<script defer src="js/script.js"></script>-->
+<!--<script defer src="js/mask.js"></script>-->
+
+<!--&lt;!&ndash; Meta Pixel Code &ndash;&gt;-->
+
+<!--<script>-->
+<!--    !function(f,b,e,v,n,t,s)-->
+<!--    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?-->
+<!--        n.callMethod.apply(n,arguments):n.queue.push(arguments)};-->
+<!--        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';-->
+<!--        n.queue=[];t=b.createElement(e);t.async=!0;-->
+<!--        t.src=v;s=b.getElementsByTagName(e)[0];-->
+<!--        s.parentNode.insertBefore(t,s)}(window, document,'script',-->
+<!--        'https://connect.facebook.net/en_US/fbevents.js');-->
+<!--    fbq('init', '1298003957751187');-->
+<!--    fbq('track', 'PageView');-->
+<!--</script>-->
+<!--<noscript><img height="1" width="1" style="display:none"-->
+<!--               src="https://www.facebook.com/tr?id=1298003957751187&ev=PageView&noscript=1"-->
+<!--/></noscript>-->
+<!-- End Meta Pixel Code -->
+</body>
+</html>
