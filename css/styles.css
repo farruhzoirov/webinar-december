@@ -513,3 +513,19 @@ body {
         font-size: 21px;
     }
 }
+
+@media only screen and (max-width: 1070px) {
+    body {
+        background-image: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url("../img/mobile-bg.jpg");
+        background-position: top left;
+        background-size: cover;
+    }
+}
+
+
+@media only screen and (max-width: 440px) {
+    .webinar-main-heading {
+        font-size: 1.6rem;
+    }
+
+}
