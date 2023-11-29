@@ -566,6 +566,38 @@ body {
         display: none;
     }
 }
+@media only screen and (min-width: 1070px) {
+    @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (   min--moz-device-pixel-ratio: 2),
+    only screen and (     -o-min-device-pixel-ratio: 2/1),
+    only screen and (        min-device-pixel-ratio: 2),
+    only screen and (                min-resolution: 192dpi),
+    only screen and (                min-resolution: 2dppx){
+        body {
+            font-family: "Poppins", "Arial", sans-serif;
+            color: #FFFFFF;
+            background-image: url("../img/bg-with-mentor@2x.jpg");
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-size: contain;
+            background-attachment: fixed;
+            background-color: #000000;
+        }
+
+        .last-bg {
+            background-image: url("../img/last-bg-with-mentor@2x.jpg");
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-size: contain;
+            background-attachment: fixed;
+            background-color: #000000;
+        }
+    }
+}
+
+
+
 
 
 
@@ -599,4 +631,8 @@ body {
         transform: translateY(-0.5rem);
     }
 }
+
+
+
+
 
