@@ -27,6 +27,27 @@ try {
             }
         })
     });
+
+    form.addEventListener('submit', async e => {
+        e.preventDefault();
+
+        const submitButton = e.target.querySelector('.form-button');
+        const name = e.target.querySelector('#name').value.trim();
+        const phone = e.target.querySelector('#phone').value?.replace(/[^0-9]/g, '');
+
+        if (name.length && phone?.length === 12) {
+            submitButton.setAttribute('disabled', true);
+            submitButton.textContent = 'Yuborilmoqda...'
+
+            localStorage.setItem('user', JSON.stringify({
+                name,
+                phone,
+                time: new Date().toLocaleString()
+            }))
+            
+            window.location.href = `../last.html`
+        }
+    })
 } catch (e) {
 
 }
