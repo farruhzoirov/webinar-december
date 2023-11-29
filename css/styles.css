@@ -54,6 +54,17 @@ body {
     background-color: #000000;
 }
 
+.last-bg {
+    background-image: url("../img/last-bg-with-mentor.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+    background-attachment: fixed;
+    background-color: #000000;
+}
+
+
+
 .container {
     width: 100%;
     padding-right: 15px;
@@ -531,6 +542,13 @@ body {
     }
     .webinar-type {
         margin-left: auto;
+    }
+
+    .last-bg {
+        background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("../img/mobile-bg.jpg");
+        background-position: top left;
+        background-size: cover;
+        background-attachment: fixed;
     }
 
 }
